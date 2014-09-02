@@ -1,0 +1,22 @@
+{
+  "name": "followmouse",
+  "version": "1.0.0",
+  "homepage": "https://github.com/iamphill/FollowMouse",
+  "authors": [
+    "Phil Hughes <me@iamphill.com>"
+  ],
+  "description": "Lightweight JavaScript plugin that makes an element follow your mouse!",
+  "main": "dist/js/FollowMouse.js",
+  "keywords": [
+    "mouse",
+    "follow",
+    "js",
+    "plugin",
+    "follow"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

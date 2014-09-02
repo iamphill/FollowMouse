@@ -4,6 +4,12 @@ Ever wanted to make the visitors on your website know that someone is watching t
 
 **FollowMouse** is an easy to use, lightweight (Less than **1.5kb** minified!) JavaScript plugin that will position any element within its containing box based on the position of the mouse. To ensure it is fully lightweight ther is no dependency on jQuery instead it uses vanilla JavaScript to ensure for speed of execution!
 
+Can be installed through Bower
+
+```
+bower install followmouse
+```
+
 ## Usage
 
 To use the script simply include it on the page
