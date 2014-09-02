@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+  <script src="../dist/js/FollowMouse.js"></script>
+  <style>
+  body, html {
+    margin:0px;
+    padding:0px;
+  }
+  .container {
+    position:relative;
+    text-align:center;
+  }
+  .eye {
+    width:200px;
+    height:200px;
+    background:black;
+    border-radius:50%;
+    display:inline-block;
+  }
+  .eye > div {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:red;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="eye">
+      <div class="js-mouse"></div>
+    </div>
+    <div class="eye">
+      <div class="js-mouse"></div>
+    </div>
+  </div>
+  <script>
+  new FollowMouse(".js-mouse");
+  </script>
+</body>
+</html>
